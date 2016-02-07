@@ -14,5 +14,5 @@ $("check-KA").each(function(){
   $(this).attr("href", "none");
   $(this).animate({
     right: 0
-  }, 1000);
+  }, 100);
 })
