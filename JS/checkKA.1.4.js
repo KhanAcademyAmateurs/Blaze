@@ -10,7 +10,7 @@ $("check-KA").each(function(){
     .css("height", "72px")
     .css("border-top-left-radius", "1em")
     .css("border-bottom-left-radius", "1em");
-  $(this).html("<a href='" + $(this).attr("href") + "' target='_blank'>Check me out on KA!</a>");
+  $(this).html("<a href='" + $(this).attr("href") + "' target='_blank' style='color:white'>Check me out on KA!</a>");
   $(this).attr("href", "none");
   $(this).animate({
     right: 0
