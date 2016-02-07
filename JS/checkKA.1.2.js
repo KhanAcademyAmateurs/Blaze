@@ -1,7 +1,7 @@
 $("check-KA").each(function(){
   $(this)
     .css("background", "#5CB85C")
-    .css("color", "white")
+    .css("color", "white !important")
     .css("padding", "1em")
     .css("position", "fixed")
     .css("top", "141px")
@@ -14,5 +14,5 @@ $("check-KA").each(function(){
   $(this).attr("href", "none");
   $(this).animate({
     right: 0
-  }, 100);
+  }, 500, 'swing');
 })
